@@ -43,3 +43,32 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :test do
+  gem "selenium-webdriver", "~> 2.39.0"
+  gem "capybara", "~> 2.2.1"
+end
+
+group :development do
+  gem "better_errors", "1.1.0"
+  gem "binding_of_caller", "0.7.2"
+  gem "brakeman", " 2.4.0"
+  gem "guard-rspec", "4.2.6"
+end
+
+gem "bootstrap_helper", "4.2.3"
+
+## Gemfile for Rails 3, Rails 4, Sinatra, and Merb
+gem "will_paginate", "3.0.5"
+
+gem "simple_form", "3.0.1"
+gem "country_select", "1.3.1"
+
+gem "settingslogic", "2.0.9"
+
+gem "rack-mini-profiler", "0.9.0"
+
+gem "devise", "3.2.2"
+gem "rabl", "0.9.3"
+gem "declarative_authorization", "0.5.7"
+gem "db-charmer", "1.6.13"
